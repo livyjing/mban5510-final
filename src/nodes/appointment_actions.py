@@ -144,20 +144,21 @@ def prep_instructions_node(state: dict) -> dict:
     @_tool_retry.wrap
     def execute():
         apt_type = state.get("appointment_type") or ""
+        msg = (state.get("user_message") or "").lower()
+        # Combine extracted type + raw message so that synonyms like
+        # "blood test" (type) or "blood draw" (message) both map to "Blood Work".
+        combined = apt_type.lower() + " " + msg
 
-        # If no type was extracted, infer from raw message keywords
-        if not apt_type:
-            msg = state.get("user_message", "").lower()
-            if "mri" in msg:
-                apt_type = "MRI"
-            elif "ct" in msg:
-                apt_type = "CT Scan"
-            elif "blood" in msg:
-                apt_type = "Blood Work"
-            elif "ultrasound" in msg:
-                apt_type = "Ultrasound"
-            else:
-                apt_type = "General"
+        if "blood" in combined:
+            apt_type = "Blood Work"
+        elif "mri" in combined:
+            apt_type = "MRI"
+        elif "ct" in combined:
+            apt_type = "CT Scan"
+        elif "ultrasound" in combined:
+            apt_type = "Ultrasound"
+        elif not apt_type:
+            apt_type = "General"
 
         return get_prep_instructions(apt_type)
 

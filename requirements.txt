@@ -1,0 +1,26 @@
+# MBAN 5510 Final Project — Appointment Assistance System
+# Python 3.11+
+
+# ── Core LangChain / LangGraph stack ──────────────────────────────────────
+langchain>=0.3.14
+langchain-openai>=0.2.14
+langgraph>=0.2.56
+
+# ── OpenAI client (Moderation API, model calls) ────────────────────────────
+openai>=1.58.1
+
+# ── Environment variable management ───────────────────────────────────────
+python-dotenv>=1.0.1
+
+# ── Data validation (used by LangChain internals) ─────────────────────────
+pydantic>=2.0.0
+
+# ── MedlinePlus live retrieval (health Q&A RAG) ────────────────────────────
+requests>=2.32.0
+beautifulsoup4>=4.12.0
+
+# ── Optional: Web UI for demo ─────────────────────────────────────────────
+gradio>=4.0.0
+
+# ── Testing ────────────────────────────────────────────────────────────────
+pytest>=8.0.0

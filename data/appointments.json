@@ -1,0 +1,305 @@
+{
+  "appointments": [
+    {
+      "id": "APT-001",
+      "patient_name": "Alex Morgan",
+      "patient_dob": "1985-03-22",
+      "patient_phone": "(902) 555-0101",
+      "date": "2026-03-15",
+      "status": "scheduled",
+      "items": [
+        {
+          "item_id": "APT-001-A",
+          "type": "MRI",
+          "description": "MRI - Brain (without contrast)",
+          "date": "2026-03-15",
+          "time": "9:00 AM",
+          "duration_minutes": 60,
+          "doctor": "Dr. Sarah Johnson",
+          "location": "Halifax Medical Centre, Radiology Suite 3B",
+          "notes": "Patient has no known metal implants."
+        },
+        {
+          "item_id": "APT-001-B",
+          "type": "Blood Work",
+          "description": "Routine Blood Panel - CBC and metabolic panel",
+          "date": "2026-03-15",
+          "time": "11:30 AM",
+          "duration_minutes": 20,
+          "doctor": "Dr. Emma Williams",
+          "location": "Halifax Medical Centre, Laboratory – Level 1",
+          "notes": "Fasting not required (draw scheduled after MRI)."
+        }
+      ]
+    },
+    {
+      "id": "APT-002",
+      "patient_name": "Jordan Lee",
+      "patient_dob": "1990-07-15",
+      "patient_phone": "(902) 555-0102",
+      "date": "2026-03-20",
+      "status": "scheduled",
+      "items": [
+        {
+          "item_id": "APT-002-A",
+          "type": "CT Scan",
+          "description": "CT Scan - Chest with contrast",
+          "date": "2026-03-20",
+          "time": "2:30 PM",
+          "duration_minutes": 45,
+          "doctor": "Dr. Michael Torres",
+          "location": "Halifax Medical Centre, Imaging Centre",
+          "notes": "Contrast dye required. Check for iodine allergy."
+        },
+        {
+          "item_id": "APT-002-B",
+          "type": "Ultrasound",
+          "description": "Abdominal Ultrasound",
+          "date": "2026-03-24",
+          "time": "10:00 AM",
+          "duration_minutes": 30,
+          "doctor": "Dr. Lisa Park",
+          "location": "Halifax Medical Centre, Radiology Suite 1A",
+          "notes": "Full bladder required. Scheduled 4 days after CT to allow contrast clearance."
+        }
+      ]
+    },
+    {
+      "id": "APT-003",
+      "patient_name": "Riley Chen",
+      "patient_dob": "1978-11-30",
+      "patient_phone": "(902) 555-0103",
+      "date": "2026-03-10",
+      "status": "scheduled",
+      "items": [
+        {
+          "item_id": "APT-003-A",
+          "type": "Blood Work",
+          "description": "Fasting Blood Panel - lipids and glucose",
+          "date": "2026-03-10",
+          "time": "8:00 AM",
+          "duration_minutes": 20,
+          "doctor": "Dr. Emma Williams",
+          "location": "Halifax Medical Centre, Laboratory – Level 1",
+          "notes": "Fast for 8–12 hours. Water permitted."
+        }
+      ]
+    },
+    {
+      "id": "APT-004",
+      "patient_name": "Sam Taylor",
+      "patient_dob": "1992-05-18",
+      "patient_phone": "(902) 555-0104",
+      "date": "2026-03-28",
+      "status": "scheduled",
+      "items": [
+        {
+          "item_id": "APT-004-A",
+          "type": "X-Ray",
+          "description": "Chest X-Ray - PA and Lateral views",
+          "date": "2026-03-28",
+          "time": "10:00 AM",
+          "duration_minutes": 20,
+          "doctor": "Dr. David Brown",
+          "location": "Halifax Medical Centre, Radiology Suite 2A",
+          "notes": "Remove jewellery and metal objects from chest area."
+        },
+        {
+          "item_id": "APT-004-B",
+          "type": "Echocardiogram",
+          "description": "Transthoracic Echocardiogram - cardiac function assessment",
+          "date": "2026-04-03",
+          "time": "11:30 AM",
+          "duration_minutes": 45,
+          "doctor": "Dr. Rachel Green",
+          "location": "Halifax Medical Centre, Cardiology Department – Floor 3",
+          "notes": "Avoid caffeine for 24 hours before the test. Cardiologist booked separately."
+        }
+      ]
+    },
+    {
+      "id": "APT-005",
+      "patient_name": "Morgan Kim",
+      "patient_dob": "1975-09-04",
+      "patient_phone": "(902) 555-0105",
+      "date": "2026-04-05",
+      "status": "scheduled",
+      "items": [
+        {
+          "item_id": "APT-005-A",
+          "type": "Mammogram",
+          "description": "Screening Mammogram - bilateral",
+          "date": "2026-04-05",
+          "time": "9:30 AM",
+          "duration_minutes": 30,
+          "doctor": "Dr. Christine Lee",
+          "location": "Halifax Medical Centre, Women's Health Centre – Floor 2",
+          "notes": "Do not apply deodorant or antiperspirant on the day of the exam."
+        },
+        {
+          "item_id": "APT-005-B",
+          "type": "Ultrasound",
+          "description": "Breast Ultrasound - follow-up imaging",
+          "date": "2026-04-05",
+          "time": "10:30 AM",
+          "duration_minutes": 30,
+          "doctor": "Dr. Lisa Park",
+          "location": "Halifax Medical Centre, Radiology Suite 1A",
+          "notes": "Performed immediately after mammogram if additional views required."
+        },
+        {
+          "item_id": "APT-005-C",
+          "type": "Blood Work",
+          "description": "Tumour Markers Panel - CA-125 and CEA",
+          "date": "2026-04-07",
+          "time": "8:00 AM",
+          "duration_minutes": 15,
+          "doctor": "Dr. Emma Williams",
+          "location": "Halifax Medical Centre, Laboratory – Level 1",
+          "notes": "Fasting required. Scheduled 2 days after imaging to correlate results."
+        }
+      ]
+    },
+    {
+      "id": "APT-006",
+      "patient_name": "Chris Davis",
+      "patient_dob": "1968-02-14",
+      "patient_phone": "(902) 555-0106",
+      "date": "2026-04-12",
+      "status": "scheduled",
+      "items": [
+        {
+          "item_id": "APT-006-A",
+          "type": "Colonoscopy",
+          "description": "Diagnostic Colonoscopy - lower GI evaluation",
+          "date": "2026-04-12",
+          "time": "8:00 AM",
+          "duration_minutes": 60,
+          "doctor": "Dr. James Wilson",
+          "location": "Halifax Medical Centre, Endoscopy Unit – Level 2",
+          "notes": "Bowel preparation required the day before. Arrange a driver — sedation is given."
+        }
+      ]
+    },
+    {
+      "id": "APT-007",
+      "patient_name": "Taylor Brooks",
+      "patient_dob": "2000-06-30",
+      "patient_phone": "(902) 555-0107",
+      "date": "2026-04-17",
+      "status": "scheduled",
+      "items": [
+        {
+          "item_id": "APT-007-A",
+          "type": "Blood Work",
+          "description": "Annual Blood Panel - CBC, lipids, thyroid, glucose",
+          "date": "2026-04-17",
+          "time": "8:00 AM",
+          "duration_minutes": 20,
+          "doctor": "Dr. Emma Williams",
+          "location": "Halifax Medical Centre, Laboratory – Level 1",
+          "notes": "Fast for 8–12 hours. Drawn one day before physical so doctor has results."
+        },
+        {
+          "item_id": "APT-007-B",
+          "type": "Physical Exam",
+          "description": "Annual Physical Examination - complete health assessment",
+          "date": "2026-04-18",
+          "time": "9:00 AM",
+          "duration_minutes": 60,
+          "doctor": "Dr. Sarah Johnson",
+          "location": "Halifax Medical Centre, Primary Care Clinic – Floor 1",
+          "notes": "Doctor reviews blood work results during this visit."
+        }
+      ]
+    }
+  ],
+  "prep_instructions": {
+    "MRI": [
+      "Remove all metal objects (jewellery, piercings, belt buckles, hair clips).",
+      "Inform staff of any metal implants, pacemakers, or surgical clips.",
+      "Do not eat or drink for 4 hours before a contrast-enhanced MRI.",
+      "Wear comfortable, loose-fitting clothing — metal fasteners will need to be removed.",
+      "Arrive 20 minutes early to complete paperwork and change if needed.",
+      "Inform your care team of any claustrophobia; sedation options are available."
+    ],
+    "CT Scan": [
+      "Do not eat solid food for 4 hours before your appointment.",
+      "You may drink clear fluids (water, black coffee) up to 2 hours before.",
+      "If contrast dye is ordered, inform staff immediately if you have an iodine or shellfish allergy.",
+      "Wear comfortable clothing with no metal fasteners.",
+      "Arrive 30 minutes early to allow time for contrast preparation if required.",
+      "Inform your care team if you are pregnant or may be pregnant."
+    ],
+    "Blood Work": [
+      "Fast for 8–12 hours before your appointment (water is permitted).",
+      "Drink plenty of water — good hydration makes veins easier to access.",
+      "Bring your provincial health card and any requisition forms.",
+      "Wear a short-sleeved shirt or one with easily rolled-up sleeves.",
+      "Continue taking your regular medications unless instructed otherwise by your physician.",
+      "Avoid strenuous exercise for 24 hours before the draw if possible."
+    ],
+    "Ultrasound": [
+      "For an abdominal ultrasound: drink 4–6 glasses of water 1 hour before and do NOT urinate.",
+      "Do not eat or drink for 3 hours before a general abdominal or pelvic ultrasound.",
+      "Wear comfortable, loose clothing that allows easy access to the area being imaged.",
+      "Remove jewellery or piercings in the area to be scanned.",
+      "Arrive 15 minutes early to complete registration."
+    ],
+    "X-Ray": [
+      "Remove all jewellery, piercings, and metal objects from the area being imaged.",
+      "Wear comfortable clothing without metal buttons, zippers, or underwire.",
+      "Inform the technologist if you are pregnant or may be pregnant.",
+      "No special fasting or dietary preparation is required.",
+      "Arrive 10 minutes early to complete registration and change if needed.",
+      "Inform staff of any prior surgeries or implants (e.g. pacemaker, joint replacement)."
+    ],
+    "Echocardiogram": [
+      "Avoid caffeine (coffee, tea, energy drinks) for at least 24 hours before the test.",
+      "Eat lightly — a heavy meal within 3 hours of the exam may affect image quality.",
+      "Continue all prescribed heart medications unless your doctor instructs otherwise.",
+      "Wear a comfortable two-piece outfit to allow easy access to the chest area.",
+      "Arrive 15 minutes early; the test itself takes approximately 45–60 minutes.",
+      "You may resume normal activities immediately after the test."
+    ],
+    "Mammogram": [
+      "Do NOT apply deodorant, antiperspirant, powder, lotion, or perfume under your arms or on your breasts on the day of the exam.",
+      "Wear a two-piece outfit so that only the top needs to be removed.",
+      "Inform the technologist of any breast implants, prior surgeries, or breast concerns.",
+      "Bring prior mammogram images or reports if this is your first visit to this facility.",
+      "Scheduling your mammogram the week after your menstrual period may reduce tenderness.",
+      "Arrive 15 minutes early to complete paperwork."
+    ],
+    "Colonoscopy": [
+      "One day before: follow a clear liquid diet only (broth, apple juice, gelatin, water — NO solid food).",
+      "Complete your full bowel preparation (prescribed laxative) starting the evening before.",
+      "Stop iron supplements 7 days before; stop blood thinners only as directed by your physician.",
+      "Do NOT eat or drink anything after midnight the night before your appointment.",
+      "Arrange for a responsible adult to drive you home — sedation is administered and you cannot drive for 24 hours.",
+      "Arrive 30 minutes early; bring your health card, medication list, and a change of clothes."
+    ],
+    "Physical Exam": [
+      "Fast for 8–12 hours if blood work is included (water and essential medications are permitted).",
+      "Bring a complete list of all prescription medications, supplements, and over-the-counter drugs.",
+      "Bring any prior medical records, test results, or referral letters.",
+      "Wear comfortable, easy-to-remove clothing for the physical assessment.",
+      "Be prepared to discuss your personal and family medical history.",
+      "Write down any symptoms or health concerns you want to address during the visit."
+    ],
+    "General": [
+      "Please contact our scheduling team for specific preparation instructions for your procedure.",
+      "Arrive at least 15 minutes before your scheduled appointment time.",
+      "Bring your provincial health card and a valid photo ID.",
+      "Bring a list of any current medications and known allergies.",
+      "If you need to cancel or reschedule, please call at least 24 hours in advance."
+    ]
+  },
+  "clinic_info": {
+    "name": "Halifax Medical Centre",
+    "phone": "(902) 555-0000",
+    "address": "1234 University Avenue, Halifax, NS B3H 1T8",
+    "scheduling_email": "scheduling@halifaxmedical.example.com",
+    "emergency_number": "911",
+    "cancellation_policy": "Please cancel or reschedule at least 24 hours in advance to avoid a missed-appointment fee."
+  }
+}

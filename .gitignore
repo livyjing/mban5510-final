@@ -1,0 +1,40 @@
+# Environment secrets — NEVER commit
+.env
+
+# Python artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code local memory (private, not project code)
+.claude/
+
+# Test output
+.pytest_cache/
+htmlcov/
+.coverage
+
+# LangGraph / LangSmith traces (may contain sensitive data)
+*.sqlite
+langgraph_traces/
+
+# Session database (auto-generated at app startup, reset each run)
+data/appointments_session.json

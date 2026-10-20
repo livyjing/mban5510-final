@@ -1,5 +1,5 @@
 # Appointment Assistance System
-### MBAN 5510 Final Project — Middleware-Driven Workflow with Human-in-the-Loop
+###  Middleware-Driven Workflow with Human-in-the-Loop
 
 > **Deadline:** February 25, 2026 | **Instructor:** Michael Zhang | **Course:** MBAN 5510
 
